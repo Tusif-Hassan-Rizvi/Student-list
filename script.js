@@ -1,6 +1,8 @@
 let pull = document.getElementById('pull');
 let hide = document.getElementById('hide');
 let table = document.getElementById('table');
+hide.style.display='none';
+
 
 
 // student name list
@@ -9,13 +11,14 @@ let students = ["Tusif", "Suhel", "Usama", "Saif", "Yusra", "Shivani", "Sahib", 
 // show button logic
 pull.addEventListener('click', data);
 
+
 function data() {
     pull.style.backgroundColor = 'green';
     setTimeout(() => {
         pull.style.backgroundColor = 'rgb(70, 70, 153)';
     }, 100);
 
- 
+
     if (table.style.display == 'none') {
         table.style.display = 'block';
     }
@@ -32,6 +35,9 @@ function data() {
 
     }
     table.innerHTML = html;
+    hide.style.display='block';
+    pull.style.display='none';
+   
 
 }
 
@@ -47,5 +53,8 @@ function erase() {
 
         table.style.display = 'none';
     }
+   pull.style.display='block';
+   hide.style.display='none';
 
+   
 }
