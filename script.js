@@ -6,7 +6,7 @@ hide.style.display='none';
 
 
 // student name list
-let students = ["Tusif", "Suhel", "Usama", "Saif", "Yusra", "Shivani", "Sahib", "Nisha", "Neeraj", "Vishal", "Kulsum", "Arif", "Zara", "Zuha", "Tafziluddin", "Nazia", "sumaiya", "Shilpa", "Shubham","Nadeem","Umar","Afroz","Sahzeeb","Ehtesham"];
+let students = ["Tusif", "Suhel", "Usama", "Saif", "Rahman", "Sharma", "Sahib", "Nautial", "Neeraj", "Vishal", "Kusum", "Arif", "Zahra", "Hussain", "Tafziluddin", "Nazir", "Gupta", "Shubham","Nadeem","Umar","Afroz","Sahzeeb","Ehtesham"];
 
 // show button logic
 pull.addEventListener('click', data);
