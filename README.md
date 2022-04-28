@@ -6,3 +6,5 @@ Student name list that show all the students name in a tabular form,\
 This small project made with HTML, CSS, & JavaScript.
 
 
+## Screenshot
+![App Screenshot](img/redme1.png)
